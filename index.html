@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="index1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🛒 Shopping List</h1>
+        <button id="themeToggle">🌙</button>
+      </div>
+      <div class="input-area">
+        <input type="text" id="itemInput" placeholder="Milk, Bread, Eggs..." />
+        <button id="addBtn">➕ Add</button>
+      </div>
+      <ul id="list"></ul>
+    </div>
+
+    <!-- Sounds -->
+    <audio
+      id="addSound"
+      src="https://www.soundjay.com/buttons/sounds/button-16.mp3"
+    ></audio>
+    <audio
+      id="deleteSound"
+      src="https://www.soundjay.com/buttons/sounds/button-10.mp3"
+    ></audio>
+
+    <script src="index1.js"></script>
+  </body>
+</html>
